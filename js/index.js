@@ -11,7 +11,7 @@ let newsAccordion = document.getElementById("newsAccordion");
 let xhr = new XMLHttpRequest();
 xhr.open(
   "GET",
-  `https://newsapi.org/v2/top-headlines?country=${country}&apiKey=${apiKey}`
+  `https://newsapi.org/v2/top-headlines?country=in&apiKey=478d303df5ac424a822ecb62c2649d94`
 );
 
 //What to do when response is ready
